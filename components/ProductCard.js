@@ -1,6 +1,6 @@
 "use client";
 import Image from 'next/image';
-const ProductCard = ({ imageSrc, name, genre,price, addToCart }) => {
+const ProductCard = ({ imageSrc, name, genre, price, addToCart }) => {
 return (
   <div className="border rounded shadow-md p-4">
     <Image
