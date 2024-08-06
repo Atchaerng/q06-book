@@ -5,7 +5,8 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const BASE_URL = "http://localhost:3000/api/products";
+//const BASE_URL = "http://localhost:3000/api/products";
+const BASE_URL = "https://q06-book.vercel.app/api/products";
 
 interface Product {
  pid: string;
